@@ -1,0 +1,15 @@
+<div class="base">
+  <div class="header"
+       (click)="toggle()">
+    <span>{{title}}</span>
+  </div>
+  <div class="body"
+       [hidden]="collapsed">
+    <ng-container>
+      {{content}}
+    </ng-container>
+    <br>
+    <ng-content>
+    </ng-content>
+  </div>
+</div>

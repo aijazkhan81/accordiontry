@@ -1,0 +1,17 @@
+.base {
+    box-shadow: 0 0 3px grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 30px;
+    .header {
+        padding: 5px;
+        text-transform: capitalize;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .body {
+        padding: 5px;
+        border-top: 1px solid darken(grey, 5%);
+    }
+}
